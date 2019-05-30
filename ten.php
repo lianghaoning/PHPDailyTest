@@ -8,16 +8,16 @@ class Math
 
 		while($n)
 		{
-			$str = $n%2;
-			// var_dump($str);
+			$yushu = $n%2;
+			// var_dump($yushu);
 
 			if($str == 1)
 			{
 				$count++;
 			}
 
-			$chu = $n/2;
-			// var_dump($chu);
+			$n = $n/2;
+			// var_dump($n);
 		}
 
 		return $count;
